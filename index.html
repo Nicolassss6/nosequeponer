@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Jonathan Verdugo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #1a1a2e;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #2c2c3e;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .photo {
+            width: 120px;
+            height: 120px;
+            background-color: #888;
+            color: #fff;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            border-radius: 50%;
+            font-size: 16px;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: 600;
+            color: #00bcd4;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #bbb;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 0;
+            gap: 25px;
+        }
+
+        .left-column, .right-column {
+            flex: 1;
+            min-width: 280px;
+            background-color: #222232;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            color: #00bcd4;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "➤ ";
+            color: #00bcd4;
+            margin-right: 8px;
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #11111d;
+            border-top: 2px solid #00bcd4;
+        }
+
+        .contact-item {
+            margin: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #bbb;
+            font-size: 14px;
+        }
+
+        p {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <img src="yo.jpg" alt="Foto de Jonathan Verdugo" class="photo">
+
+            <div>
+                <div class="title">Jonathan Nicolas Verdugo Garrido</div>
+                <div class="subtitle">Ingeniero en Ciberseguridad</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="left-column">
+                <h3>Perfil Profesional</h3>
+                <p>
+                    Soy un estudiante de Ingeniería en Ciberseguridad de 20 años, apasionado por la tecnología y la protección de la información. Me destaco por mi curiosidad, compromiso y deseo constante de aprender y mejorar.
+                </p>
+
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>HTML / CSS</li>
+                    <li>MongoDB</li>
+                    <li>Redes y Sistemas</li>
+                </ul>
+            </div>
+
+            <div class="right-column">
+                <h3>Experiencia Laboral</h3>
+                <ul>
+                    <li>Formación en conceptos fundamentales de ciberseguridad, redes de computadoras y sistemas operativos.</li>
+                    <li>Conocimientos en protección de datos, seguridad en redes y fundamentos de criptografía.</li>
+                    <li>Capacidad para identificar vulnerabilidades básicas y aplicar principios de seguridad informática.</li>
+                </ul>
+
+                <h3>Formación Académica</h3>
+                <ul>
+                    <li>Ingeniería en Ciberseguridad (en curso).</li>
+                    <li>Enseñanza Media Científico-Humanista.</li>
+                </ul>
+
+                <h3>Certificaciones</h3>
+                <ul>
+                    <li>Certificación en Python.</li>
+                    <li>Cursando la carrera de ingeniería en ciberseguridad.</li>
+                    <li>Participación activa en actividades académicas de ciberseguridad.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="contact-item">📧 verdugon157@gmail.com</div>
+            <div class="contact-item">📱 +56 9 4730 4779</div>
+            <div class="contact-item">📍 </div>
+        </div> 
+    </div>
+</body>
+</html>
